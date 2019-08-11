@@ -1,40 +1,26 @@
-# init
-@刷新token时效
-面包屑、前端路由权限的./routes/router.js、更新时间
-通讯
-日志处理
-图片，文件上传
-多线程
-ssr
-egg-redis 和 egg-session-redis
+## 这是一个完整的前后端项目，此为后端部分，前端部分由react和Antd实现
 
+前端在仓库的另一个项目里面
 
-## QuickStart
+## Installation
 
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
+数据库mysql,egg-passport, 请先查看config/config_default.js修改配置
 
 ```bash
-$ npm i
+$ npm install
 $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### Deploy
+## 功能介绍
 
-```bash
-$ npm start
-$ npm stop
-```
+- Use `登录注册.
+- Use `用户管理：增删改查，修改权限.
+- Use `操作日志记录.
+- Use `消息推送功能.
+- Use `图片上传功能.
+- Use `Ipc demo.
 
-### npm scripts
+## 其他
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
+还是有很多地方是有问题的，没有细细打磨，有时间会一一修改的
